@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  margin: 0;
+  font-family: "Sacramento", cursive;
+  font-size: 80px;
+  color: #66bfbf;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+}
+
+h3 {
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+  text-decoration: none;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 50px;
+}
+
+.bottom-cloud {
+  position: relative;
+  bottom: 250px;
+  right: 100px;
+}
+
+.top-cloud {
+  position: relative;
+  left: 350px;
+  bottom: 30px;
+}
+
+.img-mountain {
+  width: 500px;
+  padding-right: 100px;
+}
+
+.img-profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-text {
+  color: #40514e;
+  width: 600px;
+}
+
+span {
+  color: red;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #d3dadae3;
+  border-width: 10px;
+  width: 8%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.info-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.text-developer {
+  text-align: left;
+  margin-top: 0;
+}
+
+.img-computer {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.info-text {
+  color: #40514e;
+  width: 600px;
+  text-align: left;
+  margin-top: 0;
+}
+
+.info-container2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.info-projects {
+  color: #40514e;
+  width: 600px;
+  text-align: left;
+}
+
+.img-chilles {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-text {
+  color: #40514e;
+  width: 600px;
+}
+
+.contact-button {
+  background-color: #66bfbf;
+  border-radius: 5px;
+  border: none;
+  color: #eaf6f6;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container-footer {
+  background-color: #66bfbf;
+  height: 150px;
+  margin-top: 50px;
+}
+
+.text-footer {
+  color: #eaf6f6;
+  font-size: 15px;
+}
+.links-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
